@@ -1,0 +1,24 @@
+#noti{
+
+    height: 50px;
+     width: 400px;
+      border: 2px solid green;
+      box-shadow: 2px 2px 2px black;
+       background-color: green
+}
+#font{
+    font-size: 24px;
+}
+@media(max-width:768px){
+    #noti{
+
+        height: 50px;
+         width: auto;
+          border: 2px solid green;
+          box-shadow: 2px 2px 2px black;
+           background-color: green
+    }
+    #font{
+        font-size: 20px;
+    }
+}
